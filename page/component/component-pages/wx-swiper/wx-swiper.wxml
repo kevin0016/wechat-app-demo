@@ -1,7 +1,7 @@
 <view class="page">
     <view class="page__hd">
         <text class="page__title">swiper</text>
-        <text class="page__desc">swiper</text>
+        <text class="page__desc">swiper（卡片）</text>
     </view>
     <view class="page__bd">
         <view class="section section_gap swiper">
@@ -15,13 +15,16 @@
             </swiper>
         </view>
         <view class="btn-area">
-            <button type="default" bindtap="changeIndicatorDots">indicator-dots</button>
+          <text class="page__desc">是否显示指示点</text>
+            <button type="default" bindtap="changeIndicatorDots">indicator-dots（指示点）</button>
+            <text class="page__desc">选择横向或者纵向</text>
             <button type="default" bindtap="changeVertical">{{vertical?'horizontal':'vertical'}}</button>
-            <button type="default" bindtap="changeAutoplay">autoplay</button>
+            <text class="page__desc">自动播放</text>
+            <button type="default" bindtap="changeAutoplay">autoplay（自动播放）</button>
         </view>
         <slider bindchange="durationChange" value="{{duration}}" show-value min="500" max="2000"/>
-        <view class="section__title">duration</view>
+        <view class="section__title">duration（滚动时间）</view>
         <slider bindchange="intervalChange" value="{{interval}}" show-value min="2000" max="10000"/>
-        <view class="section__title">interval</view>
+        <view class="section__title">interval（间隔时间）</view>
     </view>
 </view>

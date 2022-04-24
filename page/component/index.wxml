@@ -26,6 +26,10 @@
                         <text class="widget__name">swiper</text>
                         <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
                     </navigator>
+                    <navigator url="component-pages/wx-moveableArea/wx-moveableArea" class="widget">
+                        <text class="widget__name">movealbeArea</text>
+                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
+                    </navigator>
                 </view>
             </view>
             <view class="widgets__item">

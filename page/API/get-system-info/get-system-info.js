@@ -9,7 +9,7 @@ Page({
         that.setData({
           systemInfo: res
         })
-        that.update()
+        // that.update()
       }
     })
   }

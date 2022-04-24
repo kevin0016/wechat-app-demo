@@ -14,7 +14,7 @@ Page({
         that.setData({
           hasLogin: true
         })
-        that.update()
+        // that.update()
       }
     })
   }

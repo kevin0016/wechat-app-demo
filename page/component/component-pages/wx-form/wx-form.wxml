@@ -5,19 +5,23 @@
     </view>
     <form class="page__bd" catchsubmit="formSubmit" catchreset="formReset">
         <view class="section section_gap">
+            <text class="page__desc">开关</text>
             <view class="section__title">switch</view>
             <switch name="switch"/>
         </view>
         <view class="section section_gap">
+            <text class="page__desc">滑块</text>
             <view class="section__title">slider</view>
             <slider name="slider" show-value ></slider>
         </view>
 
         <view class="section">
+            <text class="page__desc">输入框</text>
             <view class="section__title">input</view>
             <input name="input" placeholder="please input here" />
         </view>
         <view class="section section_gap">
+            <text class="page__desc">单选框</text>
             <view class="section__title">radio</view>
             <radio-group name="radio-group">
                 <label><radio value="radio1"/>radio1</label>
@@ -25,6 +29,7 @@
             </radio-group>
         </view>
         <view class="section section_gap">
+            <text class="page__desc">多选框</text>
             <view class="section__title">checkbox</view>
             <checkbox-group name="checkbox">
                 <label><checkbox value="checkbox1"/>checkbox1</label>
@@ -32,7 +37,9 @@
             </checkbox-group>
         </view>
         <view class="btn-area">
+            <text class="page__desc">提交</text>
             <button formType="submit">Submit</button>
+            <text class="page__desc">复位</text>
             <button formType="reset">Reset</button>
         </view>
     </form>

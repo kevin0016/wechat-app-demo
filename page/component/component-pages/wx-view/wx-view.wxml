@@ -5,7 +5,7 @@
     </view>
     <view class="page__bd">
         <view class="section">
-            <view class="section__title">flex-direction: row</view>
+            <view class="section__title">flex-direction(弹性方向): row（横向）</view>
             <view class="flex-wrp" style="flex-direction:row;">
                 <view class="flex-item bc_green"></view>
                 <view class="flex-item bc_red"></view>
@@ -13,7 +13,7 @@
             </view>
         </view>
         <view class="section">
-            <view class="section__title">flex-direction: column</view>
+            <view class="section__title">flex-direction(弹性方向): column（纵向）</view>
             <view class="flex-wrp" style="height: 300px;flex-direction:column;">
                 <view class="flex-item bc_green"></view>
                 <view class="flex-item bc_red"></view>
@@ -21,7 +21,7 @@
             </view>
         </view>
         <view class="section">
-            <view class="section__title">justify-content: flex-start</view>
+            <view class="section__title">justify-content(证明内容): flex-start（弹性启动）</view>
             <view class="flex-wrp" style="flex-direction:row;justify-content: flex-start;">
                 <view class="flex-item bc_green"></view>
                 <view class="flex-item bc_red"></view>
@@ -29,7 +29,7 @@
             </view>
         </view>
         <view class="section">
-            <view class="section__title">justify-content: flex-end</view>
+            <view class="section__title">justify-content(证明内容): flex-end（弹性结束）</view>
             <view class="flex-wrp" style="flex-direction:row;justify-content: flex-end;">
                 <view class="flex-item bc_green"></view>
                 <view class="flex-item bc_red"></view>
@@ -37,7 +37,7 @@
             </view>
         </view>
         <view class="section">
-            <view class="section__title">justify-content: center</view>
+            <view class="section__title">justify-content(证明内容): center（中心）</view>
             <view class="flex-wrp" style="flex-direction:row;justify-content: center;">
                 <view class="flex-item bc_green"></view>
                 <view class="flex-item bc_red"></view>
@@ -45,7 +45,7 @@
             </view>
         </view>
         <view class="section">
-            <view class="section__title">justify-content: space-between</view>
+            <view class="section__title">justify-content(证明内容): space-between（间隔）</view>
             <view class="flex-wrp" style="flex-direction:row;justify-content: space-between;">
                 <view class="flex-item bc_green"></view>
                 <view class="flex-item bc_red"></view>
@@ -53,7 +53,7 @@
             </view>
         </view>
         <view class="section">
-            <view class="section__title">justify-content: space-around</view>
+            <view class="section__title">justify-content(证明内容): space-around（环绕空间）</view>
             <view class="flex-wrp" style="flex-direction:row;justify-content: space-around;">
                 <view class="flex-item bc_green"></view>
                 <view class="flex-item bc_red"></view>
@@ -61,7 +61,7 @@
             </view>
         </view>
         <view class="section">
-            <view class="section__title">align-items: flex-end</view>
+            <view class="section__title">align-items(对齐项目): flex-end（后端对齐）</view>
             <view class="flex-wrp" style="height: 200px;flex-direction:row;justify-content: center;align-items: flex-end">
                 <view class="flex-item bc_green"></view>
                 <view class="flex-item bc_red"></view>
@@ -69,7 +69,7 @@
             </view>
         </view>
         <view class="section">
-            <view class="section__title">align-items: center</view>
+            <view class="section__title">align-items(对齐项目): center（中心）</view>
             <view class="flex-wrp" style="height: 200px;flex-direction:row;justify-content: center;align-items: center">
                 <view class="flex-item bc_green"></view>
                 <view class="flex-item bc_red"></view>

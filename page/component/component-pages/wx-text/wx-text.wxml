@@ -7,7 +7,9 @@
         <view class="section section_gap">
             <text>{{text}}</text>
             <view class="btn-area">
+                <text class="page__desc">添加一行</text>
                 <button bindtap="add">add line</button>
+                <text class="page__desc">删除一行</text>
                 <button bindtap="remove">remove line</button>
             </view>
         </view>

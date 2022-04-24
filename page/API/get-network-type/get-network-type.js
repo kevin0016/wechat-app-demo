@@ -11,7 +11,7 @@ Page({
           hasNetworkType: true,
           networkType: res.subtype || res.networkType
         })
-        that.update()
+        // that.update()
       }
     })
   },

@@ -5,7 +5,7 @@
     </view>
     <view class="page__bd">
         <view class="section">
-            <view class="section__title">vertical scroll</view>
+            <view class="section__title">vertical scroll（垂直滚动）</view>
             <scroll-view scroll-y="true" style="height: 200px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
                 <view id="green" class="scroll-view-item bc_green"></view>
                 <view id="red"  class="scroll-view-item bc_red"></view>
@@ -14,13 +14,13 @@
             </scroll-view>
 
             <view class="btn-area">
-                <button size="mini" bindtap="tap">click me to scroll into view </button>
-                <button size="mini" bindtap="tapMove">click me to scroll</button>
-                <button size="mini" bindtap="scrollToTop">click me to top</button>
+                <button size="mini" bindtap="tap">click me to scroll into view（点击我滚动查看） </button>
+                <button size="mini" bindtap="tapMove">click me to scroll（点击我滚动）</button>
+                <button size="mini" bindtap="scrollToTop">click me to top（点击我到顶部）</button>
             </view>
         </view>
         <view class="section section_gap">
-            <view class="section__title">horizontal scroll</view>
+            <view class="section__title">horizontal scroll（水平滚动）</view>
             <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
                 <view id="green" class="scroll-view-item_H bc_green"></view>
                 <view id="red"  class="scroll-view-item_H bc_red"></view>
